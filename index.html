@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananta Automation Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and basic styling */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+        body { line-height: 1.6; color: #333; scroll-behavior: smooth; }
+        a { text-decoration: none; color: inherit; }
+
+        /* Header / Hero */
+        header {
+            background: linear-gradient(135deg, #007BFF, #00CFFF);
+            color: white;
+            text-align: center;
+            padding: 100px 20px 60px;
+        }
+        header h1 { font-size: 3rem; margin-bottom: 10px; }
+        header p { font-size: 1.3rem; margin-bottom: 20px; }
+        header .cta-btn {
+            padding: 15px 30px;
+            background: #fff;
+            color: #007BFF;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px;
+            transition: 0.3s;
+        }
+        header .cta-btn:hover { background: #f0f0f0; }
+
+        /* Section styling */
+        section { padding: 80px 20px; max-width: 1000px; margin: auto; }
+        section h2 { text-align: center; font-size: 2.2rem; margin-bottom: 40px; color: #007BFF; }
+        section p { text-align: center; max-width: 800px; margin: 0 auto 20px; }
+
+        /* Services & Solutions */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+
+        /* Testimonials */
+        .testimonial { background: #007BFF; color: white; padding: 30px; border-radius: 10px; margin: 20px 0; }
+
+        /* Contact */
+        .contact-info { text-align: center; margin-bottom: 20px; }
+        .contact-info p { margin: 5px 0; }
+        iframe { border: none; width: 100%; min-height: 500px; border-radius: 10px; }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        /* Smooth buttons */
+        button { cursor: pointer; transition: 0.3s; }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero -->
+    <header>
+        <h1>Ananta Automation Agency</h1>
+        <p><em>"From the prairie, for the prairie"</em></p>
+        <p>Empowering Local Businesses with AI-Powered Automation</p>
+        <a href="#contact" class="cta-btn">Contact Us</a>
+        <a href="#services" class="cta-btn">Our Services</a>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At <strong>Ananta Automation Agency</strong>, we help local businesses streamline operations and save time & labor costs using AI-powered automation.</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="grid">
+            <div class="card"><h3>Business Process Automation</h3><p>Streamline repetitive tasks with AI-driven tools.</p></div>
+            <div class="card"><h3>Custom AI Solutions</h3><p>Tailored AI applications to optimize your workflow.</p></div>
+            <div class="card"><h3>Workflow Integration</h3><p>Connect apps, automate reports, and eliminate bottlenecks.</p></div>
+            <div class="card"><h3>Training & Support</h3><p>Teach your team to leverage automation efficiently.</p></div>
+        </div>
+    </section>
+
+    <!-- Solutions -->
+    <section id="solutions">
+        <h2>Available Solutions</h2>
+        <div class="grid">
+            <div class="card"><h3>Inventory Management</h3></div>
+            <div class="card"><h3>CRM Automation</h3></div>
+            <div class="card"><h3>Marketing & Social Media Scheduling</h3></div>
+            <div class="card"><h3>AI Analytics & Reporting</h3></div>
+            <div class="card"><h3>Chatbots for Customer Support</h3></div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial">
+            “Ananta Automation completely transformed our workflow. We save hours every week!” – Sarah L., Local Retailer
+        </div>
+        <div class="testimonial">
+            “Their AI solutions are easy to use and have boosted our efficiency tremendously.” – Mark T., Restaurant Owner
+        </div>
+        <div class="testimonial">
+            “Highly recommend! Professional, responsive, and innovative.” – Lisa K., Fitness Studio
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>📧 Email: <a href="mailto:AnantaEstatesINC@gmail.com">AnantaEstatesINC@gmail.com</a></p>
+            <p>📞 Phone: +1 (639) 590-8121</p>
+            <p>📍 Location: Regina, SK</p>
+        </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQpFz1i-84FXhqM594m8nX3GkojpjPEAWEbpz7b57KiqIjtA/viewform?usp=header"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Ananta Automation Agency. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
